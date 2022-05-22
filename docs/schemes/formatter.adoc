@@ -12,3 +12,7 @@ There is a https://github.com/koapti/formatter[Formatter project], which contain
 You can simply check it out and add, remove or edit configuration.
 [source]
 git clone git@github.com:koapti/formatter.git
+
+=== Import
+To import formatter configuration you need to clone repository or download `LazychefFormatter.xml` file.
+Then go to `File -> settings -> Editor -> Code style -> Java` and import mentioned above file.

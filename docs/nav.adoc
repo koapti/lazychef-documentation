@@ -2,4 +2,7 @@
 ** xref:schemes:api.adoc[API generation guide]
 
 .Formatter configuration
-** xref:schemes:formatter.adoc[Formatter configuration]
+** xref:schemes:formatter.adoc[Formatter configuration description]
+
+.Static code analysis
+** xref:schemes:static-code-analysis.adoc[Static code analysis]
