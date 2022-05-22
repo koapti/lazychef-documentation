@@ -7,7 +7,7 @@
 
 == Formatter
 === Main information
-There is a https://github.com/koapti/formatter[Formatter project], which contain configuration for checkstyle etc.
+There is a https://github.com/koapti/formatter[Formatter project], which contains configuration for checkstyle etc.
 
 You can simply check it out and add, remove or edit configuration.
 [source]
