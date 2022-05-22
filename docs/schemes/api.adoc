@@ -1,0 +1,10 @@
+:toc:
+:toclevels: 3
+
+= lazychef-documentation content
+
+:sectnums:
+
+== API
+
+== Static code analysis

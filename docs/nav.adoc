@@ -1,0 +1,2 @@
+.API generation
+** xref:schemes:api.adoc[API generation guide]

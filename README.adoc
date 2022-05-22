@@ -1,0 +1,7 @@
+:toc:
+:toclevels: 3
+:numbered:
+:source-highlighter: rouge
+:doctype: book
+
+include::docs/nav.adoc[]
