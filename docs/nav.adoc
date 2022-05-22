@@ -1,2 +1,5 @@
 .API generation
 ** xref:schemes:api.adoc[API generation guide]
+
+.Formatter configuration
+** xref:schemes:formatter.adoc[Formatter configuration]

@@ -1,10 +1,45 @@
 :toc:
 :toclevels: 3
 
-= lazychef-documentation content
+= API section
 
 :sectnums:
 
 == API
+=== Main information
+There is an https://github.com/koapti/lazychef-api[API project], which contains definitions of backend-frontend connection.
 
-== Static code analysis
+For example models and controllers.
+
+You can simply check it out and add, remove or edit some stuff.
+[source]
+git clone git@github.com:koapti/lazychef-api.git
+
+=== Adding dependency
+To add API models etc. to your project, you need to insert it to your `pom` file:
+
+* To `properties` section (here you have to add specific version):
+[source]
+<lazychef-api.version>{version}</lazychef-api.version>
+
+* To `dependencies` section:
+[source]
+<dependency>
+    <groupId>com.koapti.lazychef.api</groupId>
+    <artifactId>lazychef-api</artifactId>
+    <version>${lazychef-api.version}</version>
+</dependency>
+
+=== Edit
+If you need to edit API project, you have to bump project version (which section depends on commited changes), change versions in plugin configuration and then use command `mvn clean install` which will generate sources and save it into your local `.m2` repository.
+
+* Project version
+[source]
+<version>1.0.0</version>
+
+* Plugin configuration
+[source]
+<configuration>
+    <source>1.0.0</source>
+    <target>1.0.0</target>
+</configuration>
