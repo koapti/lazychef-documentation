@@ -31,15 +31,8 @@ To add API models etc. to your project, you need to insert it to your `pom` file
 </dependency>
 
 === Edit
-If you need to edit API project, you have to bump project version (which section depends on commited changes), change versions in plugin configuration and then use command `mvn clean install`, which will generate sources and save it into your local `.m2` repository.
+If you need to edit API project, you have to bump project version (which section depends on commited changes) and then use command `mvn clean install`, which will generate sources and save it into your local `.m2` repository.
 
-* Project version
+* Project version (it is example, not actual version)
 [source]
 <version>1.0.0</version>
-
-* Plugin configuration
-[source]
-<configuration>
-    <source>1.0.0</source>
-    <target>1.0.0</target>
-</configuration>

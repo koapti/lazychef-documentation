@@ -16,9 +16,20 @@ To run SonarQube, you need to do a few steps:
 * Download sonarqube (we used `sonarqube-9.4.0.54424` version)
 ** unpack it
 ** run terminal and go to folder specific to your device and then run (`bin -> system`)
-** then run the command: `sonar.sh start`.
+** then run the command: `sonar.sh start`
 
 * Open `lazychef` project, then in terminal or mvn commands pop window type:
-`mvn clean verify sonar:sonar -Dsonar.projectKey=lazychef -Dsonar.host.url=http://localhost:9000 -Dsonar.login=token` where you have to generate your token.
+`mvn clean verify sonar:sonar -Dsonar.projectKey=lazychef -Dsonar.host.url=http://localhost:9000/ -Dsonar.login=token` where you have to generate your token.
 
 For tests we use this: `255adb2ab989cf7bbc8e4926f07ceb2a5743ec22`.
+
+* Open browser and go to
+** `http://localhost:9000/`
+
+* After successful login you will see:
+
+image::../img/sonarqube.png[]
+
+* Then if you click on the name of the project you can see more specific informations:
+
+// TODO: add pic of successful test details

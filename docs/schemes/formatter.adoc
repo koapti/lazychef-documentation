@@ -16,3 +16,5 @@ git clone git@github.com:koapti/formatter.git
 === Import
 To import formatter configuration you need to clone repository or download `LazychefFormatter.xml` file.
 Then go to `File -> settings -> Editor -> Code style -> Java` and import mentioned above file.
+
+image::../img/formatter.png[]

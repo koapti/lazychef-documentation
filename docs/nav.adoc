@@ -1,6 +1,9 @@
 .API generation
 ** xref:schemes:api.adoc[API generation guide]
 
+.Swagger
+** xref:schemes:swagger.adoc[Swagger guide]
+
 .Formatter configuration
 ** xref:schemes:formatter.adoc[Formatter configuration description]
 
