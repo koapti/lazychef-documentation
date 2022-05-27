@@ -1,3 +1,6 @@
+
+== Backend
+
 .API generation
 ** xref:schemes:api.adoc[API generation guide]
 
@@ -9,3 +12,6 @@
 
 .Static code analysis
 ** xref:schemes:static-code-analysis.adoc[Static code analysis]
+
+
+== Frontend

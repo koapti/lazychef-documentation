@@ -19,11 +19,11 @@ git clone git@github.com:koapti/lazychef-api.git
 To add API models etc. to your project, you need to insert it to your `pom` file:
 
 * To `properties` section (here you have to add specific version):
-[source]
+[source, xml]
 <lazychef-api.version>{version}</lazychef-api.version>
 
 * To `dependencies` section:
-[source]
+[source, xml]
 <dependency>
     <groupId>com.koapti.lazychef.api</groupId>
     <artifactId>lazychef-api</artifactId>
@@ -34,5 +34,5 @@ To add API models etc. to your project, you need to insert it to your `pom` file
 If you need to edit API project, you have to bump project version (which section depends on commited changes) and then use command `mvn clean install`, which will generate sources and save it into your local `.m2` repository.
 
 * Project version (it is example, not actual version)
-[source]
+[source, xml]
 <version>1.0.0</version>
