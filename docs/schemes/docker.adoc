@@ -11,11 +11,21 @@ Docker is a useful tool to dockerize an application. You can build your own imag
 
 === How to Run it
 ==== Backend
-There is a `Dockerfile` inside main catalog of the application. You have to run a few commands to build the image and run container with application.
+There is a `Dockerfile` inside the main catalog of the application. You have to run a few commands to build the image and run container with application.
 
 * To build the image (`<version>` is the version of the application):
     ** `docker build -t backend:<version> .`
 * To run the container:
     ** `docker run -p 8080:8080 -t backend:<version>`
+
+    -p 8080:8080 means port mapping
+
+==== Fronted
+On this side it is clearly analogical to backend:
+
+* To build the image (`<version>` is the version of the application):
+** `docker build -t frontend:<version> .`
+* To run the container:
+** `docker run -p 8080:8080 -t frontend:<version>`
 
     -p 8080:8080 means port mapping
