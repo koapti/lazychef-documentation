@@ -1,0 +1,21 @@
+:toc:
+:toclevels: 3
+
+= Docker
+
+:sectnums:
+
+== Docker
+=== Main information
+Docker is a useful tool to dockerize an application. You can build your own image of a system, then put there application files and run it. That all does not depend on the system (e.g. Linux, MAC or Windows) on which you run it.
+
+=== How to Run it
+==== Backend
+There is a `Dockerfile` inside main catalog of the application. You have to run a few commands to build the image and run container with application.
+
+* To build the image (`<version>` is the version of the application):
+    ** `docker build -t backend:<version> .`
+* To run the container:
+    ** `docker run -p 8080:8080 -t backend:<version>`
+
+    -p 8080:8080 means port mapping

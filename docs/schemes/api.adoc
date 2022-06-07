@@ -36,3 +36,6 @@ If you need to edit API project, you have to bump project version (which section
 * Project version (it is example, not actual version)
 [source, xml]
 <version>1.0.0</version>
+
+=== After edit
+When you finish editing, you have to use command `mvn clean install`, then it will generate sources and jar files to local `.m2` repository. Then you can do step `1.2 Adding dependency` and use it in your project.
